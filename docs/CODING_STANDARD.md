@@ -45,7 +45,7 @@ export function getOrigin() {}
 
 ### 2.1 Імпорти
 
-**Порядок всередині групи:**
+**Порядок груп:**
 
 ```text
 external libs (react / next / packages)`
