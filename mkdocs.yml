@@ -1,0 +1,9 @@
+site_name: Coding Standard
+nav:
+  - Home: index.md
+  - Standard: CODING_STANDARD.md
+markdown_extensions:
+  - toc:
+      permalink: true
+theme:
+  name: mkdocs
