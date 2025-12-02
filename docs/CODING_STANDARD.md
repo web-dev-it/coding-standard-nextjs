@@ -47,14 +47,16 @@ export function getOrigin() {}
 
 **Порядок всередині групи:**
 
-`external libs (react / next / packages)`
-`config`
-`constants`
-`utils / lib`
-`hooks`
-`components`
-`images / icons`
-`styles`
+```text
+external libs (react / next / packages)`
+config
+constants
+utils / lib
+hooks
+components
+images / icons
+styles
+```
 
 **Між групами — порожній рядок:**
 
@@ -91,16 +93,20 @@ import styles from "./nav-menu-header.module.css";
 
 **Формат — kebab-case:**
 
-`nav-menu-header.jsx`
-`example-logo.jsx`
-`blog-page-list.js`
-`create-paginated-routes.js`
-`nav-menu-header.module.css`
+```text
+nav-menu-header.jsx
+example-logo.jsx
+blog-page-list.js
+create-paginated-routes.js
+nav-menu-header.module.css
+```
 
 **Константи - UPPER_SNAKE_CASE:**
 
-`SEO_CONFIG.js`
-`STATUS_CODES.js`
+```text
+SEO_CONFIG.js
+STATUS_CODES.js
+```
 
 ### 3.2. Імена компонентів
 
@@ -157,7 +163,9 @@ export const BLOG_CONFIG = {
 
 > `src/constants/`
 
-`SEO_CONFIG.js`
-`BLOG_CATEGORIES.js`
-`VALIDATION_PATTERNS.js`
-`STATUS_CODES.js`
+```text
+SEO_CONFIG.js
+BLOG_CATEGORIES.js
+VALIDATION_PATTERNS.js
+STATUS_CODES.js
+```
